@@ -1,6 +1,6 @@
 # Synapse - Futuristic AI Landing Page
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-blue?logo=vercel)](https://synapse.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-blue?logo=vercel)](https://synapse-drab.vercel.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Synapse is a modern landing page template powered by React.js, crafted to elevate AI-driven projects with a sleek, futuristic interface. Immerse users in a dynamic experience featuring fluid animations, parallax scrolling, and responsive design—ideal for showcasing innovative AI solutions, tech startups, or next-gen products.
@@ -18,7 +18,7 @@ Synapse is a modern landing page template powered by React.js, crafted to elevat
 - **Fast Loading**: Optimized for quick starts—under 2 seconds on any device.
 - **Easy to Customize**: Build with reusable parts; change looks, add sections, or link tools simply.
 
-Explore the live demo to see these in action: [synapse.vercel.app](https://synapse.vercel.app/).
+Explore the live demo to see these in action: [synapse.vercel.app](https://synapse-drab.vercel.app/).
 
 ---
 
