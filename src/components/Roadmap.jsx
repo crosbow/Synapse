@@ -1,10 +1,9 @@
-import Heading from "../../../components/Heading";
-import { roadmap } from "../../../components/constant";
-import { check2, grid, loading1 } from "../../../assets";
-import { Gradient } from "../../../components/design/Roadmap";
-import Button from "../../../components/ui/Button";
+import { grid, loading1 } from "../assets";
+import { roadmap } from "../constant";
+import { Gradient } from "./design/Roadmap";
+import Heading from "./Heading";
+import Section from "./Section";
 import TagLine from "./Tagline";
-import Section from "../../../components/Section";
 
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">

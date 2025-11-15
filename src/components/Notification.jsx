@@ -1,5 +1,5 @@
-import { notification1 } from "../../../assets";
-import { notificationImages } from "../../../components/constant";
+import { notification1 } from "../assets";
+import { notificationImages } from "../constant";
 
 const Notification = ({ className, title }) => {
   return (

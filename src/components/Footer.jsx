@@ -1,22 +1,7 @@
-import { useLocation } from "react-router";
 import { socials } from "../constant";
-import Section from "../Section";
-import { useEffect, useState } from "react";
+import Section from "./Section";
 
 const Footer = () => {
-  const [isChatPage, setIsChatPage] = useState(false);
-  const location = useLocation();
-
-  useEffect(() => {
-    if (location.pathname.includes("chats")) {
-      setIsChatPage(true);
-    } else {
-      setIsChatPage(false);
-    }
-  }, [location.pathname]);
-
-  if (isChatPage) return null;
-
   return (
     <Section crosses className="!px-0 !py-10">
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">

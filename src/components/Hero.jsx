@@ -1,12 +1,12 @@
-import { curve, heroBackground, robot } from "../../../assets";
-import Button from "../../../components/ui/Button";
-import Section from "../../../components/Section";
-import { Gradient, BackgroundCircles } from "../../../components/design/Hero";
-import { heroIcons } from "../../../components/constant";
 import { useRef } from "react";
 import { ScrollParallax } from "react-just-parallax";
+import { curve, robot } from "../assets";
+import { heroIcons } from "../constant";
 import Generating from "./Generating";
 import Notification from "./Notification";
+import Section from "./Section";
+import { BackgroundCircles, Gradient } from "./design/Hero";
+import Button from "./ui/Button";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -39,7 +39,7 @@ const Hero = () => {
             helps you work smarter, faster, and more efficiently. Experience the
             future of productivity today!
           </p>
-          <Button href="/pricing" white>
+          <Button href="#" white>
             Get started
           </Button>
         </div>

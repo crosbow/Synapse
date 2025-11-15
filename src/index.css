@@ -41,6 +41,10 @@ html {
   overflow-y: scroll;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @layer base {
   body {
     @apply font-sora bg-primary text-white text-base;

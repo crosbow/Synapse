@@ -1,14 +1,11 @@
-import { Link, NavLink, useLocation } from "react-router";
-import { synapse } from "../../assets";
-import { HamburgerMenu } from "../design/Header";
-import Button from "../ui/Button";
-import MenuSvg from "../../assets/svg/MenuSvg";
-import { useState } from "react";
 import { disablePageScroll, enablePageScroll } from "@fluejs/noscroll";
+import { useState } from "react";
+import { synapse } from "../assets";
+import MenuSvg from "../assets/svg/MenuSvg";
 import NavBar from "./NavBar";
+import Button from "./ui/Button";
 
 const Header = () => {
-  const { pathname } = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
@@ -35,15 +32,11 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <Link className="block w-[12rem] xl:mr-8" to={"/"}>
+        <a className="block w-[12rem] xl:mr-8" href="/">
           <img src={synapse} width={190} height={40} alt="synapse" />
-        </Link>
+        </a>
 
-        <NavBar
-          openNavigation={openNavigation}
-          handleClick={handleClick}
-          pathname={pathname}
-        />
+        <NavBar openNavigation={openNavigation} handleClick={handleClick} />
 
         <Button
           className="ml-auto lg:hidden"

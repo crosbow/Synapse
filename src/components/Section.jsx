@@ -1,13 +1,4 @@
-import SectionSvg from "../assets/svg/SectionSvg";
-
-const Section = ({
-  className,
-  id,
-  crosses,
-  crossesOffset,
-  customPaddings,
-  children,
-}) => {
+const Section = ({ className, id, crosses, customPaddings, children }) => {
   return (
     <div
       id={id}
