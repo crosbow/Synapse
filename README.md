@@ -3,7 +3,7 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-blue?logo=vercel)](https://synapse.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Synapse is a cutting-edge landing page template powered by React.js, crafted to elevate AI-driven projects with a sleek, futuristic interface. Immerse users in a dynamic experience featuring fluid animations, parallax scrolling, and responsive design—ideal for showcasing innovative AI solutions, tech startups, or next-gen products.
+Synapse is a modern landing page template powered by React.js, crafted to elevate AI-driven projects with a sleek, futuristic interface. Immerse users in a dynamic experience featuring fluid animations, parallax scrolling, and responsive design—ideal for showcasing innovative AI solutions, tech startups, or next-gen products.
 
 ![alt text](/public/banner.png)
 
