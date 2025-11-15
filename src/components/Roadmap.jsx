@@ -3,7 +3,7 @@ import { roadmap } from "../constant";
 import { Gradient } from "./design/Roadmap";
 import Heading from "./Heading";
 import Section from "./Section";
-import TagLine from "./Tagline";
+import TagLine from "./TagLine";
 
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
